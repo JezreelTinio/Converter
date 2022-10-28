@@ -13,24 +13,22 @@
     <div class="main">
         <div class=" converter d-flex flex-column justify-content-center align-items-center">
             <div class="row text-center border border-4">
-                <h1 class="align-self-center text-light"><i class="fa-solid fa-weight-scale "></i>Converter</h1>
-                <form action="" method="">
+                <h1 class="align-self-center text-light"><i class="fa-solid fa-weight-scale "></i> Weight Converter</h1>
+                <form action="#" method="">
                     
                     <label for="kiloConverter"></label>
-                    <input type="number" id="kiloConverter" placeholder="Kilo" class="rounded">
+                    <input type="number" id="kiloConverter" placeholder="Kilo" class="rounded converter-input">
+                    <input type="text" id="value" class="rounded converter-input" readonly>
                     
-                    
-                    <button class="rounded-pill" onclick="gramsConverter()">
+                    <button class="rounded-pill converter-button" onclick="gramsConverter()">
                         Grams
                     </button>
-                    <button class="rounded-pill" onclick="PoundsConverter()">
+                    <button class="rounded-pill converter-button" onclick="PoundsConverter()">
                         Pounds
                     </button>
-                    <button class="rounded-pill" onclick="OuncesConverter()">
+                    <button class="rounded-pill converter-button" onclick="OuncesConverter()">
                         Ounces
                     </button>
-                    <h4 id="unit"></h4>
-                    <h4 id="displayUnit"></h4>
                 </form> 
             </div>
         </div>
